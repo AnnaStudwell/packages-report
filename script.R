@@ -1,3 +1,9 @@
+#Convert to MarkDown using the 3 lines of YAML header content, should delete html file if you made one before, and creates a .md file instead
+
+#'---
+#'output: github_document
+#'---
+
 # Determine the bug when you run `get_climates()`
 # Hint: Use `traceback()` to find where it occurs, add breakpoints / `browser()` calls
 # Hint: look at the types of the data and make sure they are what the functions expect.
@@ -28,4 +34,4 @@ get_climates <- function() {
 
 #error happens when you just try to run get_climates()
 # Error in strsplit(vec, ",") : non-character argument 
-get_climates()
+#get_climates()
