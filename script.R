@@ -1,4 +1,6 @@
 #Convert to MarkDown using the 3 lines of YAML header content, should delete html file if you made one before, and creates a .md file instead
+#This is because Markdown is a much more useful format for people to use when downloading from GitHub
+
 
 #'---
 #'output: github_document
